@@ -1,8 +1,6 @@
 const incognito = document.querySelector(".item.incognito");
 const grid = document.querySelector(".container").children;
 
-console.log(grid);
-
 // const Ntablero = [5, 8, 7, 3, 9, 4, 1, 6, 3, 2, 0, 4, 7, 0, 9, 2, 6, 8, 1, 5];
 const Ntablero = [5, 8, 7, 3, 9, 4, 6, 2, 4, 0, 5, 1, 8, 6, 2, 9, 7, 0, 3, 1];
 
@@ -39,6 +37,7 @@ incognito.addEventListener("click", () => {
 
   incognito.appendChild(pOpe);
   incognito.appendChild(pNum);
+
 });
 
 function genRnd(min, max) {
